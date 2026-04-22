@@ -25,10 +25,52 @@
                     <li class="nav-li"><a href=""><img src="iconos/R.png" alt="">Pizzas</a></li>
                     <li class="nav-li"><a href=""><img src="iconos/2515263.png" alt="">Comida Saludable</a></li>
                     <li class="nav-li"><a href=""><img src="iconos/7254781.png" alt="">Bebidas</a></li>
-                    <li class="nav-li"><a href=""><img src="iconos/gear(1).png" alt="">Contacto</a></li>
+                    <li class="nav-li"><a href="formulario.html"><img src="iconos/gear(1).png" alt="">Contacto</a></li>
             </nav>
+            <article class="pedidos-section">
+                <h1>Detalles de producto y precio</h1>
+                <div class="info-pedidos">
+                    <img src="iconos/Burguer1.png" alt="">
+                    <div class="hambur-section">
+                        <h2>Hamburguesa Clásica</h2>
+                        <p>Nuestra hamburguesa clásica es la prueba de que la sencillez es la clave del éxito. Disfrutá de un medallón de carne 100% vacuna, jugoso y en su punto justo, acompañado por la suavidad de un pan de receta única, siempre esponjoso. El equilibrio se completa con el toque tradicional de kétchup, mostaza y esa cebolla triturada que le da el carácter justo a cada bocado. Es nuestra opción más sencilla, pensada para quienes buscan el sabor auténtico y directo de una buena hamburguesa, sin vueltas.
+                        </p>
+                        <span class="precio">$8000</span>
+                        <form action="" class="formulario-pedido">
+                            <h2>Realizá tu pedido</h2>
+                            <div>
+                            <label for="nombre"></label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div>
+                            <label for="direccion"></label>
+                            <input type="text" id="direccion" placeholder="Dirección de entrega">
+                            </div>
+                            <div>
+                            <label for="telefono"></label>
+                            <input type="number" id="telefono" placeholder="Teléfono">
+                            </div>
+                            <div>
+                            <label for="comentario"></label>
+                            <input type="text" id="comentario" placeholder="Comentarios adicionales">
+                        </div>
+                        <div class="cantidad">
+                            <label for="">Cantidad</label>
+                            <div class="cantidad-control">
+                                <button>-</button>
+                                <input type="number" min="1" max="99">
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="botones">
+                            <button class="button">CONFIRMAR PEDIDO</button>
+                            <button class="button-cancel">CANCELAR</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </article>
         </div>
-
     </main>
     <footer class="footer">
         <div>
