@@ -430,5 +430,25 @@ font-weight: 100;
     border:1px solid orangered;
 }
 
+/* Success */
+.successDiv{
+    padding: 20px;
+}
 
+.successDiv h1,p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+.successDiv a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.successDiv h1{
+    color: orangered;
+}
